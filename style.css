@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-items {
+  display: flex;
+  transition: 0.5s;
+}
+
+.carousel-item {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.carousel-controllers {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-prev, .carousel-next {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+}
